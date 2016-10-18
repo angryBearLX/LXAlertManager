@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD9390211DB6010900DAF58E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9390201DB6010900DAF58E /* main.m */; };
+		BD9390241DB6010900DAF58E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9390231DB6010900DAF58E /* AppDelegate.m */; };
+		BD9390271DB6010900DAF58E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9390261DB6010900DAF58E /* ViewController.m */; };
+		BD93902A1DB6010900DAF58E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9390281DB6010900DAF58E /* Main.storyboard */; };
+		BD93902C1DB6010900DAF58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD93902B1DB6010900DAF58E /* Assets.xcassets */; };
+		BD93902F1DB6010900DAF58E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD93902D1DB6010900DAF58E /* LaunchScreen.storyboard */; };
+		BD93903A1DB6010900DAF58E /* LXAlertManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9390391DB6010900DAF58E /* LXAlertManagerDemoTests.m */; };
+		BD9390451DB6010900DAF58E /* LXAlertManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9390441DB6010900DAF58E /* LXAlertManagerDemoUITests.m */; };
+		BD9390551DB6014100DAF58E /* LXAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9390541DB6014100DAF58E /* LXAlertManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD9390361DB6010900DAF58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9390141DB6010900DAF58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD93901B1DB6010900DAF58E;
+			remoteInfo = LXAlertManagerDemo;
+		};
+		BD9390411DB6010900DAF58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9390141DB6010900DAF58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD93901B1DB6010900DAF58E;
+			remoteInfo = LXAlertManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD93901C1DB6010900DAF58E /* LXAlertManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXAlertManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9390201DB6010900DAF58E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD9390221DB6010900DAF58E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD9390231DB6010900DAF58E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD9390251DB6010900DAF58E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD9390261DB6010900DAF58E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD9390291DB6010900DAF58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD93902B1DB6010900DAF58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD93902E1DB6010900DAF58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD9390301DB6010900DAF58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9390351DB6010900DAF58E /* LXAlertManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXAlertManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9390391DB6010900DAF58E /* LXAlertManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXAlertManagerDemoTests.m; sourceTree = "<group>"; };
+		BD93903B1DB6010900DAF58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9390401DB6010900DAF58E /* LXAlertManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXAlertManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9390441DB6010900DAF58E /* LXAlertManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXAlertManagerDemoUITests.m; sourceTree = "<group>"; };
+		BD9390461DB6010900DAF58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9390531DB6014100DAF58E /* LXAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXAlertManager.h; sourceTree = "<group>"; };
+		BD9390541DB6014100DAF58E /* LXAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXAlertManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD9390191DB6010900DAF58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9390321DB6010900DAF58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD93903D1DB6010900DAF58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD9390131DB6010900DAF58E = {
+			isa = PBXGroup;
+			children = (
+				BD93901E1DB6010900DAF58E /* LXAlertManagerDemo */,
+				BD9390381DB6010900DAF58E /* LXAlertManagerDemoTests */,
+				BD9390431DB6010900DAF58E /* LXAlertManagerDemoUITests */,
+				BD93901D1DB6010900DAF58E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD93901D1DB6010900DAF58E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD93901C1DB6010900DAF58E /* LXAlertManagerDemo.app */,
+				BD9390351DB6010900DAF58E /* LXAlertManagerDemoTests.xctest */,
+				BD9390401DB6010900DAF58E /* LXAlertManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD93901E1DB6010900DAF58E /* LXAlertManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BD9390221DB6010900DAF58E /* AppDelegate.h */,
+				BD9390231DB6010900DAF58E /* AppDelegate.m */,
+				BD9390251DB6010900DAF58E /* ViewController.h */,
+				BD9390261DB6010900DAF58E /* ViewController.m */,
+				BD9390521DB6014100DAF58E /* LXAlertManager */,
+				BD9390281DB6010900DAF58E /* Main.storyboard */,
+				BD93902B1DB6010900DAF58E /* Assets.xcassets */,
+				BD93902D1DB6010900DAF58E /* LaunchScreen.storyboard */,
+				BD9390301DB6010900DAF58E /* Info.plist */,
+				BD93901F1DB6010900DAF58E /* Supporting Files */,
+			);
+			path = LXAlertManagerDemo;
+			sourceTree = "<group>";
+		};
+		BD93901F1DB6010900DAF58E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD9390201DB6010900DAF58E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD9390381DB6010900DAF58E /* LXAlertManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD9390391DB6010900DAF58E /* LXAlertManagerDemoTests.m */,
+				BD93903B1DB6010900DAF58E /* Info.plist */,
+			);
+			path = LXAlertManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		BD9390431DB6010900DAF58E /* LXAlertManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD9390441DB6010900DAF58E /* LXAlertManagerDemoUITests.m */,
+				BD9390461DB6010900DAF58E /* Info.plist */,
+			);
+			path = LXAlertManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		BD9390521DB6014100DAF58E /* LXAlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				BD9390531DB6014100DAF58E /* LXAlertManager.h */,
+				BD9390541DB6014100DAF58E /* LXAlertManager.m */,
+			);
+			name = LXAlertManager;
+			path = ../../LXAlertManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD93901B1DB6010900DAF58E /* LXAlertManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD9390491DB6010900DAF58E /* Build configuration list for PBXNativeTarget "LXAlertManagerDemo" */;
+			buildPhases = (
+				BD9390181DB6010900DAF58E /* Sources */,
+				BD9390191DB6010900DAF58E /* Frameworks */,
+				BD93901A1DB6010900DAF58E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXAlertManagerDemo;
+			productName = LXAlertManagerDemo;
+			productReference = BD93901C1DB6010900DAF58E /* LXAlertManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD9390341DB6010900DAF58E /* LXAlertManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD93904C1DB6010900DAF58E /* Build configuration list for PBXNativeTarget "LXAlertManagerDemoTests" */;
+			buildPhases = (
+				BD9390311DB6010900DAF58E /* Sources */,
+				BD9390321DB6010900DAF58E /* Frameworks */,
+				BD9390331DB6010900DAF58E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9390371DB6010900DAF58E /* PBXTargetDependency */,
+			);
+			name = LXAlertManagerDemoTests;
+			productName = LXAlertManagerDemoTests;
+			productReference = BD9390351DB6010900DAF58E /* LXAlertManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD93903F1DB6010900DAF58E /* LXAlertManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD93904F1DB6010900DAF58E /* Build configuration list for PBXNativeTarget "LXAlertManagerDemoUITests" */;
+			buildPhases = (
+				BD93903C1DB6010900DAF58E /* Sources */,
+				BD93903D1DB6010900DAF58E /* Frameworks */,
+				BD93903E1DB6010900DAF58E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9390421DB6010900DAF58E /* PBXTargetDependency */,
+			);
+			name = LXAlertManagerDemoUITests;
+			productName = LXAlertManagerDemoUITests;
+			productReference = BD9390401DB6010900DAF58E /* LXAlertManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD9390141DB6010900DAF58E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Liu;
+				TargetAttributes = {
+					BD93901B1DB6010900DAF58E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BD9390341DB6010900DAF58E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BD93901B1DB6010900DAF58E;
+					};
+					BD93903F1DB6010900DAF58E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BD93901B1DB6010900DAF58E;
+					};
+				};
+			};
+			buildConfigurationList = BD9390171DB6010900DAF58E /* Build configuration list for PBXProject "LXAlertManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD9390131DB6010900DAF58E;
+			productRefGroup = BD93901D1DB6010900DAF58E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD93901B1DB6010900DAF58E /* LXAlertManagerDemo */,
+				BD9390341DB6010900DAF58E /* LXAlertManagerDemoTests */,
+				BD93903F1DB6010900DAF58E /* LXAlertManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD93901A1DB6010900DAF58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD93902F1DB6010900DAF58E /* LaunchScreen.storyboard in Resources */,
+				BD93902C1DB6010900DAF58E /* Assets.xcassets in Resources */,
+				BD93902A1DB6010900DAF58E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9390331DB6010900DAF58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD93903E1DB6010900DAF58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD9390181DB6010900DAF58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9390271DB6010900DAF58E /* ViewController.m in Sources */,
+				BD9390241DB6010900DAF58E /* AppDelegate.m in Sources */,
+				BD9390551DB6014100DAF58E /* LXAlertManager.m in Sources */,
+				BD9390211DB6010900DAF58E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9390311DB6010900DAF58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD93903A1DB6010900DAF58E /* LXAlertManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD93903C1DB6010900DAF58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9390451DB6010900DAF58E /* LXAlertManagerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD9390371DB6010900DAF58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD93901B1DB6010900DAF58E /* LXAlertManagerDemo */;
+			targetProxy = BD9390361DB6010900DAF58E /* PBXContainerItemProxy */;
+		};
+		BD9390421DB6010900DAF58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD93901B1DB6010900DAF58E /* LXAlertManagerDemo */;
+			targetProxy = BD9390411DB6010900DAF58E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD9390281DB6010900DAF58E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD9390291DB6010900DAF58E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD93902D1DB6010900DAF58E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD93902E1DB6010900DAF58E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD9390471DB6010900DAF58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD9390481DB6010900DAF58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD93904A1DB6010900DAF58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXAlertManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angrybear.LXAlertManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD93904B1DB6010900DAF58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXAlertManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angrybear.LXAlertManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD93904D1DB6010900DAF58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXAlertManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angrybear.LXAlertManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXAlertManagerDemo.app/LXAlertManagerDemo";
+			};
+			name = Debug;
+		};
+		BD93904E1DB6010900DAF58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXAlertManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angrybear.LXAlertManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXAlertManagerDemo.app/LXAlertManagerDemo";
+			};
+			name = Release;
+		};
+		BD9390501DB6010900DAF58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXAlertManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angrybear.LXAlertManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXAlertManagerDemo;
+			};
+			name = Debug;
+		};
+		BD9390511DB6010900DAF58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXAlertManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angrybear.LXAlertManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXAlertManagerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD9390171DB6010900DAF58E /* Build configuration list for PBXProject "LXAlertManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9390471DB6010900DAF58E /* Debug */,
+				BD9390481DB6010900DAF58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD9390491DB6010900DAF58E /* Build configuration list for PBXNativeTarget "LXAlertManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD93904A1DB6010900DAF58E /* Debug */,
+				BD93904B1DB6010900DAF58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD93904C1DB6010900DAF58E /* Build configuration list for PBXNativeTarget "LXAlertManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD93904D1DB6010900DAF58E /* Debug */,
+				BD93904E1DB6010900DAF58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD93904F1DB6010900DAF58E /* Build configuration list for PBXNativeTarget "LXAlertManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9390501DB6010900DAF58E /* Debug */,
+				BD9390511DB6010900DAF58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD9390141DB6010900DAF58E /* Project object */;
+}
